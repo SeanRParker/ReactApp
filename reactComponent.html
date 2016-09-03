@@ -14,12 +14,19 @@
     var HelloWorld = React.createClass({
       render: function() {
         return (
-          <p>Hello, componentized world!</p>
+          <p>Hello, world!</p>
         );
       }
     });
     ReactDOM.render(
-      <HelloWorld/>,
+      <div>
+        <HelloWorld/>
+        <HelloWorld/>
+        <HelloWorld/>
+        <HelloWorld/>
+        <HelloWorld/>
+        <HelloWorld/>
+      </div>,
       document.querySelector("#container")
     );
   </script>
